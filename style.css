@@ -42,3 +42,16 @@ h2 {
 .myClass {
     color: crimson;
 }
+
+#box {
+    background-color: blue;
+    /*  color: white; */
+}
+
+.heading {
+    color: blueviolet;
+}
+
+/* h3,h4,h5{
+    color: blueviolet;                 (selector work in comma)
+} */
