@@ -12,5 +12,6 @@ button {
 }
 
 body {
-    background-color: aqua;
+    background-color: rgb(255, 0, 0);
+    /*use color picker website for rgb values*/
 }
