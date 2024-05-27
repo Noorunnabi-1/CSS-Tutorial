@@ -68,3 +68,22 @@ h2 {
 #h1 {
     text-align: center;
 }
+
+#deco {
+    text-align: center;
+}
+
+#deco1 {
+    text-align: start;
+    text-decoration: underline;
+}
+
+#deco2 {
+    text-align: left;
+    text-decoration: overline;
+}
+
+#deco3 {
+    text-align: start;
+    text-decoration: line-through;
+}
