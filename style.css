@@ -80,10 +80,81 @@ h2 {
 
 #deco2 {
     text-align: left;
-    text-decoration: overline;
+    text-decoration: dotted overline;
 }
 
 #deco3 {
     text-align: start;
-    text-decoration: line-through;
+    text-decoration: black wavy line-through;
+}
+
+/*  to erase the underline from the link. Which is auto generated */
+a {
+    text-decoration: none;
+}
+
+#h1 {
+    font-weight: normal;
+}
+
+#h2 {
+    font-weight: bold;
+}
+
+#h3 {
+    font-weight: bolder;
+}
+
+#h4 {
+    font-weight: lighter;
+}
+
+#one {
+    font-family: Arial;
+    font-weight: 900;
+}
+
+#two {
+    font-family: Verdana
+}
+
+#one1 {
+    font-size: 80px;
+}
+
+#two2 {
+    font-size: 10px;
+}
+
+#on {
+    line-height: 2px;
+}
+
+#tw {
+    line-height: 59px;
+}
+
+#div {
+    text-transform: uppercase;
+}
+
+#div1 {
+    text-transform: capitalize;
+}
+
+#Q1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.newRoman {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#outer {
+    font-size: 20px;
+}
+
+#inner {
+    font-size: 40px;
 }
