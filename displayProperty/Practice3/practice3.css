@@ -1,0 +1,44 @@
+* {
+    background-color: darkslategrey;
+}
+
+#navbar {
+    height: 60px;
+    width: 1500px;
+    background-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-color: bisque;
+}
+
+#log {
+    color: #f08804;
+
+}
+
+a {
+    color: white;
+    margin-right: 200px;
+    text-decoration: none;
+}
+
+button {
+    background-color: #f08804;
+}
+
+.contentBox {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#content {
+    height: 700px;
+}
