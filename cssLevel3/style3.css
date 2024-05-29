@@ -71,3 +71,28 @@ div {
     top: 0px;
     /*left: 100px; */
 }
+
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: #ede8f5;
+    border: 2px black solid;
+    display: inline-block;
+}
+
+#b {
+    background-image: url("Percian_cat.jpg");
+    background-size: cover;
+}
+
+#bo {
+    background-image: url("Percian_cat.jpg");
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+}
+
+#box {
+    background-image: url("Percian_cat.jpg");
+    background-size: auto;
+}
