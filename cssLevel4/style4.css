@@ -1,0 +1,19 @@
+body {
+    background-image: url("css_L4.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+
+}
+
+#container {
+    width: 800px;
+    height: 200px;
+    display: flex;
+}
