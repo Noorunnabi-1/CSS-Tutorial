@@ -4,6 +4,14 @@ body {
     text-align: center;
 }
 
+.box2 {
+    height: 200px;
+}
+
+.box3 {
+    height: 75px;
+}
+
 div {
     height: 100px;
     width: 100px;
@@ -18,4 +26,110 @@ div {
     display: flex;
     flex-direction: row-reverse;
     /* by default all elements are in row direction*/
+}
+
+#container1 {
+    width: 400px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+#container2 {
+    width: 400px;
+    height: 800px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#container3 {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    /* flex can fix its size in given size container*/
+}
+
+#container4 {
+    width: 800px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    /* flex can fix its size in given size container until its font size is capable otherwise out to the container*/
+}
+
+#container5 {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* we can add flex-start/centre/end/space-around */
+    /* by default all elements are in justify content*/
+}
+
+#container5x {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* we can add flex-start/centre/end/space-around/space-between/space-evenly */
+    /* by default all elements are in justify content*/
+}
+
+#container6 {
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#container6x {
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    /* we can add flex-end */
+}
+
+#container6xx {
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    /* align-content: flex-start;   it can be enable for erase the area */
+    /* we can add flex-end */
+}
+
+#container7 {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+#container8 {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+#container9 {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
 }
