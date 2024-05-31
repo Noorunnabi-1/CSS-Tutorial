@@ -1,0 +1,13 @@
+* {
+    background-image: url("background_image.jpg");
+    background-size: cover;
+}
+
+div {
+    height: 300px;
+    width: 300px;
+    background-image: url("image_div.jpg");
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
