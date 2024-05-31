@@ -1,0 +1,36 @@
+.navbar {
+    background-color: pink;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    /* to place element along the main axis */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+.outer {
+    height: 400px;
+    width: 400px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    /* to place element along the main axis */
+    align-items: center;
+    /* to place element along the cross axis */
+}
+
+.inner {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
