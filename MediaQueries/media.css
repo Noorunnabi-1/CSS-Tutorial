@@ -1,0 +1,25 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+}
+
+/* we want change at width:600px */
+@media (width:600px) {
+    div {
+        background-color: red;
+    }
+}
+
+@media (max-width:600px) {
+    div {
+        background-color: yellow;
+        /* we can change at minimum width:600px */
+    }
+}
+
+@media(min-width:200px) and (max-width:300px) {
+    .id {
+        background-color: brown;
+    }
+}
