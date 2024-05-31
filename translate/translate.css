@@ -1,0 +1,77 @@
+h1 {
+    text-align: center;
+}
+
+.div1 {
+    background-color: blueviolet;
+    border: 2px black solid;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    /* transform: rotate(90deg); */
+    /* transform: scaleX(2); */
+    /* scaling  can  be use in hover */
+    transition: all 2s ease-in;
+}
+
+.div1:hover {
+    /* background-color: brown;
+    font-size: 50px; 
+    transform: rotate(360deg); */
+    transform: translateX(300px);
+}
+
+
+
+
+
+
+.div2 {
+    background-color: blueviolet;
+    border: 2px black solid;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 400px;
+    left: 100px;
+    /* transform: rotate(90deg); */
+    /* transform: scaleX(2); */
+    /* scaling  can  be use in hover */
+    transition: all 2s ease-in;
+}
+
+.div2:hover {
+    /* background-color: brown;
+    font-size: 50px; 
+    transform: rotate(360deg); */
+    transform: translateY(-300px);
+}
+
+
+
+
+
+
+
+.div3 {
+    background-color: blueviolet;
+    border: 2px black solid;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 700px;
+    left: 100px;
+    /* transform: rotate(90deg); */
+    /* transform: scaleX(2); */
+    /* scaling  can  be use in hover */
+    transition: all 2s ease-in;
+}
+
+.div3:hover {
+    /* background-color: brown;
+    font-size: 50px; 
+    transform: rotate(360deg); */
+    transform: translate(200px, 400px);
+}
