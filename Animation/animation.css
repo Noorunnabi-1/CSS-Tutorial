@@ -1,0 +1,213 @@
+.div1 {
+    background-color: blueviolet;
+    border: 2px black solid;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    animation-name: colorAnimate;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 3s;
+    animation-iteration-count: 5;
+
+}
+
+@keyframes colorAnimate {
+    from {
+        background-color: blueviolet;
+    }
+
+    to {
+        background-color: brown;
+    }
+}
+
+
+
+
+
+.div2 {
+    background-color: blueviolet;
+    border: 2px black solid;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 400px;
+    left: 100px;
+    animation-name: colorAnimat;
+    animation-duration: 0.25s;
+    /* animation-timing-function: ease-in; */
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes colorAnimat {
+    from {
+        background-color: blueviolet;
+    }
+
+    to {
+        background-color: brown;
+    }
+}
+
+
+
+
+.div3 {
+    background-color: blueviolet;
+    border: 2px black solid;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 800px;
+    left: 100px;
+    animation-name: colorAnima;
+    animation-duration: 3s;
+    /* animation-timing-function: ease-in; */
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    /* bydefault it normal position ; */
+
+}
+
+@keyframes colorAnima {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 300px;
+    }
+}
+
+
+
+.div3x {
+    background-color: blueviolet;
+    border: 2px black solid;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 1200px;
+    left: 100px;
+    animation-name: colorAnim;
+    animation-duration: 3s;
+    /* animation-timing-function: ease-in; */
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+
+}
+
+@keyframes colorAnim {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 300px;
+    }
+}
+
+
+
+
+.div3xx {
+    background-color: blueviolet;
+    border: 2px black solid;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 1600px;
+    left: 100px;
+    animation-name: colorAni;
+    animation-duration: 3s;
+    /* animation-timing-function: ease-in; */
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes colorAni {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 300px;
+    }
+}
+
+
+
+.div3xxx {
+    background-color: blueviolet;
+    border: 2px black solid;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 2000px;
+    left: 100px;
+    animation-name: colorAn;
+    animation-duration: 3s;
+    /* animation-timing-function: ease-in; */
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+}
+
+@keyframes colorAn {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 300px;
+    }
+}
+
+
+
+
+.div31 {
+    background-color: blueviolet;
+    border: 2px black solid;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 2400px;
+    left: 100px;
+    /* animation-name: animShort;
+    animation-duration: 3s;
+    animation-timing-function: ease-in; 
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; */
+    animation: animShort 2s ease-in 0s infinite normal;
+
+}
+
+@keyframes animShort {
+    from {
+        left: 0px;
+        background-color: blue;
+    }
+
+    to {
+        left: 300px;
+        background-color: chartreuse;
+        color: white;
+    }
+}

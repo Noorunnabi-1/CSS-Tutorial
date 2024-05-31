@@ -75,3 +75,27 @@ h1 {
     transform: rotate(360deg); */
     transform: translate(200px, 400px);
 }
+
+
+
+
+.div4 {
+    background-color: blueviolet;
+    border: 2px black solid;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 1000px;
+    left: 100px;
+    /* transform: rotate(90deg); */
+    /* transform: scaleX(2); */
+    /* scaling  can  be use in hover */
+    transition: all 2s ease-in;
+}
+
+.div4:hover {
+    /* background-color: brown;
+    font-size: 50px; 
+    transform: rotate(360deg); */
+    transform: skew(30deg);
+}
