@@ -211,3 +211,40 @@
         color: white;
     }
 }
+
+
+
+
+
+
+
+
+.div3y {
+    background-color: blueviolet;
+    border: 2px black solid;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 2800px;
+    left: 100px;
+    animation: animPercentage 4s ease-in 1s infinite normal;
+
+}
+
+@keyframes animPercentage {
+    0% {
+        left: 0px;
+        background-color: blue;
+    }
+
+    50% {
+        background-color: red;
+    }
+
+    100% {
+        left: 300px;
+        background-color: chartreuse;
+        color: white;
+    }
+}
